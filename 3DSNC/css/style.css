@@ -1,0 +1,106 @@
+/* Arquivo CSS - Formatação do Site */
+*{
+    padding: 0; 
+    margin:0;
+    font-size:14px;
+    text-decoration:none;
+    color:#333;
+    list-style:none;
+}
+
+body{
+    background-color:#111;
+}
+
+#geral{
+    max-width:1200px;
+    height:auto;
+    overflow:hidden; 
+    margin:0 auto;
+}
+
+/*==================== Topo do site ======================*/
+#topo{
+    width:100% ;
+    height:120px ;
+    float:left ;
+    background-color: #DDF;
+}
+.logo{
+    width:200px;
+    height:auto; 
+    float:left; 
+    margin: 20px;
+}
+.links_top{
+    float:right;
+    padding:10px;
+    margin:5px 2px;
+    background-color:#145;
+    color:fff;
+}
+.links_top:hover{
+    background-color:#59f;
+}
+/*==================== Fim do topo ======================*/
+
+
+
+/*==================== Menu do site ======================*/
+#menu{
+    width:100% ;
+    height:50px ;
+    float:left ;
+    background-color: #145;
+}
+.links_menu li a{
+    float:left;
+    padding:17px;
+    background-color:#145;
+    color:#fff;
+}
+.links_menu li a:hover{
+    background-color:#59f;
+}
+/*==================== Fim do menu ======================*/
+
+
+
+/*==================== Conteúdo do site ======================*/
+#conteudo{
+    width:100% ;
+    min-height:600px ;
+    float:left ;
+    background-color: #FFD;
+}
+#conteudo_principal{
+    width:70%;
+    min-height:600px;
+    float:left;
+    border:1px solid #ccc;
+    margin:20px 10px;
+}
+#recentes{
+    width:26%;
+    min-height:600px;
+    float:left;
+    border:1px solid #ccc;
+    margin:20px 10px;
+}
+/*==================== Fim do conteúdo ======================*/
+
+
+
+/*==================== Rodapé do site ======================*/
+#rodape{
+    width:100% ;
+    height:auto ;
+    float:left ;
+    background-color: #DDD;
+    padding: 15px;
+}
+.direitos{
+    text-align:center; 
+    font-size:18px;
+}
+/*==================== Fim do rodapé ======================*/

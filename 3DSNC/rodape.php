@@ -1,0 +1,1 @@
+<p class="direitos">&copy;AulasDSNC.com.br | Criado por Gabryel Soares</p>

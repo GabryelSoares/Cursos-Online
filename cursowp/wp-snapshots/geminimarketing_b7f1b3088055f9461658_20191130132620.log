@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 30 de November de 2019 13:27
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.24
+WORDPRESS:	5.3
+PHP INFO:	7.3.11 | SAPI: apache2handler
+SERVER:		Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: geminimarketing_b7f1b3088055f9461658_20191130132620_database.sql
+SQL FILE SIZE: 1.29MB (1351214)
+SQL FILE TIME: 2019-11-30 13:27:27
+SQL RUNTIME: 1.62 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/cursowp
+ARCHIVE FILE: geminimarketing_b7f1b3088055f9461658_20191130132620_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	149.53MB
+STATS:	Dirs 914 | Files 6,485
+SQL ADDED: geminimarketing_b7f1b3088055f9461658_20191130132620_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7399
+    [filename] => C:\xampp\htdocs\cursowp\wp-snapshots\tmp\geminimarketing_b7f1b3088055f9461658_20191130132620_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 7398
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 56.3MB
+ARCHIVE RUNTIME: 27.90 sec.
+MEMORY STACK: 8MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/xampp/htdocs/cursowp/wp-snapshots/tmp/geminimarketing_b7f1b3088055f9461658_20191130132620_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.29MB
+INSTALLER FILE: 60.52KB
+ARCHIVE FILE: 57.65MB 
+EXPECTED FILE/DIRECTORY COUNT: 7,399
+ACTUAL FILE/DIRECTORY COUNT: 7,398
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 32.53 sec.
+PEAK PHP MEMORY USED: 10MB
+DONE PROCESSING => geminimarketing 30 de November de 2019 13:27
+
