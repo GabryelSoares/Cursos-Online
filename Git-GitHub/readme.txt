@@ -1,2 +1,2 @@
-Curso de Git e GitHub e contribui‡äes para projetos Open Source.
-Criado por Bruno Orlandi e dispon¡vel na Udemy
+Curso de Git e GitHub e contribuicoes para projetos Open Source.
+Criado por Bruno Orlandi e disponÂ¡vel na Udemy
