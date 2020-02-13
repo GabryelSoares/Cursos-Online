@@ -1,0 +1,10 @@
+copy con readme.txt
+type readme.txt
+
+git pull
+
+git add .
+
+git commit -m "alteracoes"
+
+git push -u
