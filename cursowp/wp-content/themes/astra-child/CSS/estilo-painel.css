@@ -1,0 +1,77 @@
+*{list-style:none;}
+/* ==================== Painel ====================  ;*/
+.Form_Painel{width:100%; margin-bottom:6%;}
+.Painel{align-items: center; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;}
+
+.Blocos_Painel{height:230px;}
+.Scroll_Tabelas{height:200px; overflow:auto;}
+
+#Bloco_Negociacoes{border-top:3px solid green;}
+#Bloco_Pendencias{border-top:3px solid yellow;}
+#Bloco_Propostas{border-top:3px solid blue;}
+#Bloco_Tarefas{border-top:3px solid purple;}
+
+.BTN_Novo{float:right;padding:1px 10px;color:white !important;background-color:#2c863e;display:flex;margin-top:5px;}
+.BTN_Novo:hover{cursor: pointer; background-color:#3eac3d !important; color:white !important;}
+
+
+
+/* ==================== Inicio Mobile ====================  */
+@media only screen and (min-width: 320px) and (max-width: 680px){
+    .Painel{padding:2%}
+    .Blocos_Painel{width:90%; margin:5% auto;}
+
+}/* ==================== Inicio Desktop ====================  */
+@media only screen and (min-width: 681px){
+    .Painel{padding:2%}
+    .Blocos_Painel{width:46%; margin:2%;}
+
+}/* === Fim Desktop ====================  */
+
+
+.Tabelas{border-spacing:0;font-size:9pt;border-collapse: unset;margin:0;}
+.Tabelas td{padding:0 2px;}
+.Tabelas tr{border:0.05px solid grey;height:20px;}
+.Tabelas tr:nth-child(even){background-color: #f2f2f2;}
+.Titulo_Tabelas{display:block;float:center;text-align:center;color:#212529;font-size:15pt; margin-bottom:5px;font-weight: bold !important; }
+.Cabecalho_Tabelas td{margin-left:4px;;color:black;font-weight: bold !important; }
+
+    /* Tabela Negociações */
+    #Codigo_Tabela_Negociacao{width:30px; min-width:25px;}
+    #Abertura_Tabela_Negociacao{width:70px; min-width:50px;}
+    #Tipo_Tabela_Negociacao{width:70px; min-width:50px;}
+    #Cliente_Tabela_Negociacao{min-width:130px;}
+
+    /* Tabela Pendencias */
+    #Codigo_Tabela_Pendencias{width:30px; min-width:25px;}
+    #Prazo_Tabela_Pendencias{width:70px; min-width:50px;}
+    #Tipo_Tabela_Pendencias{width:70px; min-width:50px;}
+    #Descricao_Tabela_Pendencias{min-width:157px;}
+
+    /* Tabela Propostas */
+    #Codigo_Tabela_Propostas{width:30px; min-width:25px;}
+    #Data_Tabela_Propostas{width:70px; min-width:50px;}
+    #Origem_Tabela_Propostas{width:70px; min-width:50px;}
+    #Cliente_Tabela_Propostas{min-width:60px;}
+    #Vendedor_Tabela_Propostas{min-width:60px;}
+
+    /* Tabela Tarefas */
+    #Codigo_Tabela_Tarefas{width:30px; min-width:25px;}
+    #Prazo_Tabela_Tarefas{width:70px; min-width:50px;}
+    #Tipo_Tabela_Tarefas{width:70px; min-width:50px;}
+
+
+    .t-modal .modal-content{
+        min-width:300px !important;
+        max-width:300px !important;
+        margin: auto;
+        font-size: 10pt;
+    }
+    
+    .t-modal .modal-content input{ width:160px; vertical-align: middle; height:22px; padding:1px; margin-left:3px !important;}
+    .t-modal .modal-content select{ width:160px; vertical-align: middle; height:22px; padding:1px; text-align: center; }
+    .t-modal .modal-content label{ width:100px; vertical-align: middle; height:22px; padding:1px; }
+    .Visibilidade_Personalizada{ width:265px !important; height:22px; margin-top:5px;margin-bottom:0px; }
+    #Visibilidade_Personalizada{ background-color:#fafafa; border:0.5px solid #eaeaea; }
+
+
