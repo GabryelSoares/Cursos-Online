@@ -8,9 +8,74 @@
 
 </head>
 <body>
+	<nav>
+		<ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link active" href="#">Inicio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Quem Dou</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contato</a>
+			</li>
+		</ul>
+	</nav>	
 
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+		  <h1>Curso Bootstrap 4 &amp; jQuery</h1>
+		  <p>Aprenda HML, CSS e JavaScript</p>
+		</div>
+	</div>
 
-	
+	<div class="container">
+
+		<section class="cards-container">
+
+			<div class="row">
+				<!-- (.col-12.col-sm-4>card>img.card-img-top+.card-body>p.card-text)*3 -->
+				<div class="col-12 col-sm-4">
+					<card>
+						<img src="imgs/card_02.jpg" alt="" class="card-img-top">
+						<div class="card-body">
+							<p class="card-text">Seletores</p>
+						</div>
+					</card>
+				</div>
+				<div class="col-12 col-sm-4">
+					<card>
+						<img src="imgs/card_06.jpg" alt="" class="card-img-top">
+						<div class="card-body">
+							<p class="card-text">Posicionamento</p>
+						</div>
+					</card>
+				</div>
+				<div class="col-12 col-sm-4">
+					<card>
+						<img src="imgs/card_03.jpg" alt="" class="card-img-top">
+						<div class="card-body">
+							<p class="card-text">Fontes e ícones</p>
+						</div>
+					</card>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="cards-container">
+			<article>
+				<h2>titulo</h2>
+				<p>Primeiro parágrafo de exemplo</p>
+				<p>Segundo parágrafo de exemplo</p>
+			</article>
+		</section>
+
+	</div>
+
+	<footer class="rodape d-flex justify-content-center align-items-center">
+			<p>Copyright &copy; 2020</p>
+	</footer>
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
