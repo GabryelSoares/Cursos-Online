@@ -49,23 +49,54 @@ body{
 .nav-link{
     padding-top: 0;
     padding-bottom: 0;
-
 }
 }
 
+.carousel-caption .h5{
+    background-color: #63c6ae;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding: 25px 20px;
+    margin-top: 240px;    
+}
 
+.carousel-caption .carousel-text{
+    background-color: #242a2c;
+    margin:  5px 30px 35px;
+    color: white;
+    padding: 15px;
+    font-size: .9rem;
+}
 
+.carousel-caption .btn{
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 5px;
+    padding: 15px 25px;
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, .2);
+}
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width:40px;
+    height: 40px;
+}
 
+.card {
+    border: none;
+}
 
+.card-body{
+    border-left: 1px solid rgba(0, 0, 0, .15);
+}
 
-
-
-
-
-
-
-
+.section-cards{
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
 
 
 
