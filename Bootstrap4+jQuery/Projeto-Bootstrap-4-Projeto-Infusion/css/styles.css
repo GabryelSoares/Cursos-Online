@@ -2,8 +2,10 @@ body{
     padding-top: 4rem;
 }
 
-.nav-bar{
+.navbar{
     padding: 0;
+    background-color: white;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, .3);
 }
 
 .navbar-brand{
@@ -98,7 +100,9 @@ body{
     border-bottom: 1px solid rgba(0, 0, 0, .15);
 }
 
-
+.section-content{
+    background-color: #f8f9f9;
+}
 
 
 
