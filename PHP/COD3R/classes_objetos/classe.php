@@ -7,20 +7,22 @@ class Cliente {
     public $idade = 18;
 
     public function apresentar(){
-        echo "Nome: {$this->nome} Idade: {$this->idade}<br>";
+        return "Nome: {$this->nome} Idade: {$this->idade}";
     }
 }
 
-$c1 = new Cliente;
+$c1 = new Cliente();
 $c1->nome = 'Gabryel';
+echo $c1->nome, '<br>';
 $c1->idade = 24;
 
 $c2 = new Cliente;
 $c2->nome = 'Raphael';
+echo $c2->nome, '<br>';
 $c2->idade = 24;
 
-$c1->apresentar();
-$c2->apresentar();
+echo $c1->apresentar(), '<br>';
+echo $c2->apresentar();
 
 
 
