@@ -1,3 +1,0 @@
-Curso: Express API REST com [ NESTJS ] + [ MONGODB ]
-Autor: Matheus Barros
-Local: YouTube
